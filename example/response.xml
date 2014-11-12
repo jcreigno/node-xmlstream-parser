@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+    <OperationRequest>
+        <RequestId>de4e0305-1cc8-48b6-9e54-c7432f4b9e97</RequestId>
+        <Arguments>
+            <Argument Name="Operation" Value="ItemLookup"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Signature" Value="mLJDMUEYAoN7v1bhs+22mXEdRBKJxJhxXN28djor0dk="></Argument>
+            <Argument Name="AssociateTag" Value="se23a-54"></Argument>
+            <Argument Name="Version" Value="2013-08-01"></Argument>
+            <Argument Name="ItemId" Value="9782353558001"></Argument>
+            <Argument Name="IdType" Value="EAN"></Argument>
+            <Argument Name="AWSAccessKeyId" Value="ZEVOZPOEVPNOPN"></Argument>
+            <Argument Name="Timestamp" Value="2014-11-12T10:51:16Z"></Argument>
+            <Argument Name="ResponseGroup" Value="ItemAttributes"></Argument>
+            <Argument Name="SearchIndex" Value="Books"></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0264010000000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemLookupRequest>
+                <IdType>EAN</IdType>
+                <ItemId>9782353558001</ItemId>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <SearchIndex>Books</SearchIndex>
+                <VariationPage>All</VariationPage>
+            </ItemLookupRequest>
+        </Request>
+        <Item>
+            <ASIN>2353558003</ASIN>
+            <DetailPageURL>http://www.amazon.fr/500-recettes-grand-m%C3%A8re-Editions-ESI/dp/2353558003%3FSubscriptionId</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>http://www.amazon.fr/gp/registry/wishlist/add-item.html%3Fasin.0%3D2353558003%26SubscriptionId</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>http://www.amazon.fr/gp/pdp/taf/2353558003%3FSubscriptionId</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>http://www.amazon.fr/review/product/2353558003%3FSubscriptionId</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>http://www.amazon.fr/gp/offer-listing/2353558003%3FSubscriptionId</URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>Editions ESI</Author>
+                <Binding>Relié</Binding>
+                <EAN>9782353558001</EAN>
+                <EANList>
+                    <EANListElement>9782353558001</EANListElement>
+                </EANList>
+                <ISBN>2353558003</ISBN>
+                <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">776</Height>
+                    <Length Units="hundredths-inches">972</Length>
+                    <Width Units="hundredths-inches">122</Width>
+                </ItemDimensions>
+                <Label>Editions ESI</Label>
+                <Languages>
+                    <Language>
+                        <Name>Français</Name>
+                        <Type>Unknown</Type>
+                    </Language>
+                    <Language>
+                        <Name>Français</Name>
+                        <Type>Original Language</Type>
+                    </Language>
+                    <Language>
+                        <Name>Français</Name>
+                        <Type>Published</Type>
+                    </Language>
+                </Languages>
+                <ListPrice>
+                    <Amount>2018</Amount>
+                    <CurrencyCode>EUR</CurrencyCode>
+                    <FormattedPrice>EUR 20,18</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Editions ESI</Manufacturer>
+                <NumberOfPages>353</NumberOfPages>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">134</Height>
+                    <Length Units="hundredths-inches">984</Length>
+                    <Weight Units="hundredths-pounds">370</Weight>
+                    <Width Units="hundredths-inches">795</Width>
+                </PackageDimensions>
+                <ProductGroup>Book</ProductGroup>
+                <ProductTypeName>ABIS_BOOK</ProductTypeName>
+                <PublicationDate>2011-11-24</PublicationDate>
+                <Publisher>Editions ESI</Publisher>
+                <Studio>Editions ESI</Studio>
+                <Title>500 recettes de grand-mère</Title>
+                <TradeInValue>
+                    <Amount>705</Amount>
+                    <CurrencyCode>EUR</CurrencyCode>
+                    <FormattedPrice>EUR 7,05</FormattedPrice>
+                </TradeInValue>
+            </ItemAttributes>
+        </Item>
+    </Items>
+</ItemLookupResponse>

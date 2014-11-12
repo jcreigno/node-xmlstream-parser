@@ -7,7 +7,7 @@ var streamParser = require('../lib/index'),
     fs = require('fs');
 
 
-fs.createReadStream(__dirname + '/response.xml')
+fs.createReadStream(__dirname + '/response-big.xml')
     .pipe(streamParser.parse('Item'))
     .pipe(JSONStream.stringify())
     .pipe(process.stdout);

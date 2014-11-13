@@ -44,6 +44,6 @@ is parsed as :
 is parsed as : 
 ```js
 {
-    message: ['hello'
+    message: ['hello', 'world']
 }
 ```

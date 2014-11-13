@@ -3,6 +3,8 @@
     <OperationRequest>
         <RequestId>de4e0305-1cc8-48b6-9e54-c7432f4b9e97</RequestId>
         <Arguments>
+            <message>hello</message>
+            <message>hello2</message>
             <Argument Name="Operation" Value="ItemLookup"></Argument>
             <Argument Name="Service" Value="AWSECommerceService"></Argument>
             <Argument Name="Signature" Value="mLJDMUEYAoN7v1bhs+22mXEdRBKJxJhxXN28djor0dk="></Argument>

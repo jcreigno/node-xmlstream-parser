@@ -25,3 +25,25 @@ fs.createReadStream('response.xml')
     .pipe(process.stdout);
 ```
 
+### Parsing rules
+* if a node element as only one child text node then it is parsed as simple value
+```xml
+<message>hello</message>
+```
+is parsed as : 
+```js
+{
+    message: 'hello'
+}
+```
+* if a node as more than one child with the same name then it is parsed as an Array
+```xml
+<message>hello</message>
+<message>world</message>
+```
+is parsed as : 
+```js
+{
+    message: ['hello'
+}
+```
